@@ -58,7 +58,7 @@ $ node services/salestax-queue-srv.js
 $ node app-queue.js
 ```
 
-```sh
+```shnode
 $ node services/salestax-queue-country-srv.js
 ```
 

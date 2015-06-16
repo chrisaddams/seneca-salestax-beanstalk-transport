@@ -27,6 +27,9 @@ node_modules
 # Users Environment Variables
 .lock-wscript
 
+#project files
+.idea
+.idea/*
 
 contain/**/*.js
 *~
