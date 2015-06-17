@@ -2,15 +2,12 @@
   "name": "deploy-example",
   "version": "1.0.0",
   "description": "",
-  "main": "index.js",
-//  "scripts": {
-//    "test": "echo \"Error: no test specified\" && exit 1"
-//  },
+  "main": "app-queue.js",
   "repository": {
     "type": "git",
     "url": "https://github.com/senecajs/deploy-example.git"
   },
-  "author": "Richard Rodger (http://richardrodger.com)",
+  "author": "Chris Gornall - modifying seneca-deploy-example",
   "license": "MIT",
   "bugs": {
     "url": "https://github.com/senecajs/deploy-example/issues"
