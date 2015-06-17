@@ -4,7 +4,8 @@
 ### Web server and micro-service over a queue
 ###------------
 
-
+common:
+    build: ./contain/common/
 
 beanstalkd:
     build: ./contain/beanstalk/
