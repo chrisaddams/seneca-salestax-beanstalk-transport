@@ -1,0 +1,10 @@
+machine:
+  services:
+    - docker
+dependencies:
+  override:
+    - docker build -t -t node-base-0 ./contain/node/
+test:
+  override:
+    - docker run -d -p 3080:3000 node-base-0; sleep 5
+    - curl --retry 10 --retry-delay 5 -L -I -f http://localhost:3000/
